@@ -44,15 +44,15 @@ h1{
 
 h2{
     font-family: Lato, sans-serif;
-    font-size: x-large;
-    margin-bottom: 50px;;
+    background-color: #dbc2a4;
+    padding: 5px;
+    color: black;
 }
 
 h3{
     font-family: Lato, sans-serif;
-    background-color: #dbc2a4;
-    padding: 5px;
-    color: black;
+    font-size: large;
+    margin-bottom: 15px;
 }
 
 a{
@@ -80,6 +80,10 @@ i{
     margin: auto;
     margin-top: 30px;
     cursor: zoom-in;
+}
+
+#name{
+    font-size: xx-large;
 }
 
 .introduction_details{
@@ -130,19 +134,14 @@ i{
     color: black;
 }
 
-.right-column h3{
+.right-column h2{
     border-left-style: solid;
     border-color: #782221;
     border-width: 10px;
     padding-left: 10px;
 }
 
-.right-column p:hover{
-    border-right-style: solid;
-    border-color:#782221;
-}
-
-.right-column li:hover{
+.right-column div:hover{
     border-right-style: solid;
     border-color:#782221;
 }
@@ -152,7 +151,7 @@ i{
     padding-right: 50px;
 }
 
-.left_column h3{
+.left_column h2{
     padding-left: 25px;
 }
 
@@ -167,7 +166,6 @@ i{
     text-align: center;
     padding: 25px;
 }
-
 
 .social_media_items:hover{
     opacity: 0.5;
